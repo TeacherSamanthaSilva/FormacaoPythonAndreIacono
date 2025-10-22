@@ -5,7 +5,7 @@ ponto do cozimento da carne """
 
 temperatura = int(input("Digite a temperatura da carne: "))
 
-if temperatura >= 48 or temperatura <54:
+if temperatura >= 48:
     print("A carne está selada")
 elif temperatura >=54 or temperatura < 60:
     print("A carne está no ponto")

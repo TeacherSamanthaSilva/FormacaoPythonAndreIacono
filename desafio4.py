@@ -9,3 +9,15 @@ se tiver acima de 40 a pessoa está com obesidade grave """
 
 peso = float(input("Digite o seu peso: "))
 altura = float(input("Digite a sua altura: "))
+imc = peso/(altura * altura)
+
+if imc < 18.5:
+    print(f"O seu imc de {imc} está muito baixo")
+elif imc >= 18.5 or imc <= 24.9:
+    print(f"O seu imc de {imc} está normal")
+elif imc >25 or imc <= 29.9:
+    print(f" O seu imc é de {imc} você está com sobrepeso")
+elif imc >30 or imc <= 39.9:
+    print(f"O seu imc é de {imc} você está com obesidade")
+else:
+    print(f"O seu imc é de {imc} Você está com obesidade grave")

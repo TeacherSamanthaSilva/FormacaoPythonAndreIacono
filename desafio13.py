@@ -2,3 +2,7 @@
 #da lista usando o método pop 
 
 frutas = ["maça","banana","manga","uva","morango","abacaxi"]
+
+frutas.remove[2]
+
+print(frutas)

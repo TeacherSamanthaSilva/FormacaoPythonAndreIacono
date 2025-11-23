@@ -3,10 +3,10 @@
 
 frutas = ["maça","banana","manga","uva","morango","abacaxi"]
 
-frutas.remove[2]
+frutas.remove("manga")
 
 print(frutas)
 
-frutas.pop
+frutas.pop()
 
 print(frutas)

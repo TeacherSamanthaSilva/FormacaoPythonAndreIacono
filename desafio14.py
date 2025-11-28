@@ -2,3 +2,6 @@
 #fruta precedida do texto "Eu gosto de"
 
 frutas = ["maça","banana","manga","uva","morango","abacaxi"]
+
+for fruta in frutas: 
+    print("Eu gosto de" , fruta)

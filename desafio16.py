@@ -2,10 +2,10 @@
 aninhado )  para imprimir todas as combinações possíveis de frutas e vegetais, com a fruta primeiro
 e o vegetal em segundo. """
 
-frutas = ["maça","banana","manga"]
+frutas = ["maça", "banana", "manga"]
 
 vegetais = ["cenoura", "alface", "brocolis"]
 
 for fruta in frutas:
-    for vegatal in vegetais:
+    for vegetal in vegetais:
         print(fruta, vegetal)

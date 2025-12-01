@@ -1,3 +1,5 @@
 """ Para este desafio crie uma lista de frutas e outra de vegetais . Use um Nested for loop (For loop
 aninhado )  para imprimir todas as combinações possíveis de frutas e vegetais, com a fruta primeiro
 e o vegetal em segundo. """
+
+frutas = ["maça","banana","manga","uva","morango","abacaxi"]

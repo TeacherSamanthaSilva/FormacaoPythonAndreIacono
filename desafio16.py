@@ -2,4 +2,6 @@
 aninhado )  para imprimir todas as combinações possíveis de frutas e vegetais, com a fruta primeiro
 e o vegetal em segundo. """
 
-frutas = ["maça","banana","manga","uva","morango","abacaxi"]
+frutas = ["maça","banana","manga"]
+
+vegetais = ["cenoura", "alface", "brocolis"]

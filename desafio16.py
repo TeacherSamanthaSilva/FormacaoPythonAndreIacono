@@ -5,3 +5,7 @@ e o vegetal em segundo. """
 frutas = ["maça","banana","manga"]
 
 vegetais = ["cenoura", "alface", "brocolis"]
+
+for fruta in frutas:
+    for vegatal in vegetais:
+        print(fruta, vegetal)

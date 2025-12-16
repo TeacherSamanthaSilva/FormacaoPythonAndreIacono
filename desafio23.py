@@ -3,3 +3,5 @@ digitada não for abacate o loop deve continuar pedindo para o usuário digitar 
 se a fruta for abacate o loop deve acabar e o programar imprimir parabéns você acertou a fruta """
 
 while True:
+    fruta = str(input("Adivinho em que fruta estou pensando"))
+    

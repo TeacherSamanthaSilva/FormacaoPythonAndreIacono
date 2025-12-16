@@ -5,5 +5,8 @@ se a fruta for abacate o loop deve acabar e o programar imprimir parabéns você
 while True:
     fruta = str(input("Adivinho em que fruta estou pensando "))
     if fruta == "abacate":
-        
+        break
+
+if fruta == "abacate":
+    print("Parabéns você adivinhou em qual fruta estava pensando ")
     

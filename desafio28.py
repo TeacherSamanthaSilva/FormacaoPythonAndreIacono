@@ -5,3 +5,5 @@ def quadradodenumero(numero):
 
 numero = int(input("Digite um número qualquer: "))
 
+print(f"O quadrado de {numero} é ")
+

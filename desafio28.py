@@ -1,0 +1,1 @@
+""" Crie uma função que aceita um número como entrada e retorna o quadrado desse número """

@@ -8,4 +8,4 @@ def potencia(base, expoente):
 base = int(input("Digite o valor da base"))
 expoente = int(input("Digite o valor do expoente"))
 
-print("O resultado de {base} elavado no {expoente} é {potencia(base,expoente)}")
+print(f"O resultado de {base} elavado no {expoente} é {potencia(base,expoente)}")

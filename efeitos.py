@@ -2,7 +2,7 @@ from PIL import Image, ImageEnhance, ImageFilter, ImageOps, ImageDraw
 
 img = Image.open("eu.jpg").convert("RGB")
 
-img_nitidez = ImageEnhance.Sharpness(img).enhance(1.5)
-img_nitidez.save("05_nitidez.jpg")
-img_nitidez.show()
-
+blur = img.filter(ImageFilter.GaussianBlur(5))
+img = Image.blend(img, blur, alpha=0.2)
+img.show()
+img.save("insta_05_glow.jpg")

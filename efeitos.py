@@ -2,6 +2,6 @@ from PIL import Image, ImageEnhance, ImageFilter, ImageOps, ImageDraw
 
 img = Image.open("eu.jpg").convert("RGB")
 
-img_contraste = ImageEnhance.Contrast(img).enhance(1.3)
-img_contraste.save("02_contraste.jpg")
-img_contraste.show()
+img_cor = ImageEnhance.Color(img).enhance(1.4)
+img_cor.save("03_saturacao.jpg")
+img_cor.show()

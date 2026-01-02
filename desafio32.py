@@ -2,12 +2,13 @@
 # o quadrado de um número
 
 def dobrodenumero(numero):
-    numero *2
-    return numero
+    resultado = numero * 2
+    return resultado
 
 def quadradodenumero(numero):
-    numero * numero 
-    return numero
+   resultado =  numero * numero 
+   return resultado
+
 
 numero = int(input("Digite um número qualquer"))
 

@@ -1,0 +1,1 @@
+# Para este desafio crie uma função lambda que aceite dois números e retorne a multiplicação desses número

@@ -1,0 +1,1 @@
+# Para este desafio crie uma funçao lambda que aceite um número e retorne o cubo desse número. 

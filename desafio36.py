@@ -9,3 +9,5 @@ resultados = []
 
 for i in numeros:
     resultados.append(quadrado(i))
+
+print(resultados)
